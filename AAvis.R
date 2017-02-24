@@ -95,10 +95,10 @@ if (export_graphs == TRUE) {
 ggplot(data = emp, aes(x = factor(Group), fill = EEO)) +
   geom_bar(position = "fill") +
   scale_fill_pander() +
-  labs(title = "Family Services EEO1",
+  labs(title = "Ethnic composition of EEO-1 job groups, by gender.",
        x = "Job Group", 
        y = "Proportion",
-       subtitle = "Ethnic composition of EEO1 job groups, by gender.") +
+       fill = "Ethnicity") +
   facet_grid(Gender ~.) +
   theme_classic(base_size = fs) +
   coord_flip()
@@ -117,10 +117,10 @@ if (export_graphs == TRUE) {
 ggplot(data = emp, aes(x = factor(Group), fill = EEO)) +
   geom_bar(position = "fill") +
   scale_fill_pander() +
-  labs(title = "Family Services EEO1",
+  labs(title = "Ethnic composition of EEO-1 job groups.",
        x = "Job Group", 
        y = "Proportion",
-       subtitle = "Ethnic composition of EEO1 job groups.") +
+       fill = "Ethnicity") +
   theme_classic(base_size = fs) +
   coord_flip()
 if (export_graphs == TRUE) {
@@ -139,10 +139,10 @@ if (export_graphs == TRUE) {
 ggplot(data = emp, aes(x = factor(Group), fill = Gender)) +
   geom_bar(position = "fill") +
   scale_fill_wsj() +
-  labs(title = "Family Services EEO1",
+  labs(title = "Sex composition of job groups",
        x = "Job Group", 
        y = "Proportion",
-       subtitle = "Sex composition of EEO1 job groups.") +
+       fill = "Ethnicity") +
   theme_classic(base_size = fs) +
   coord_flip()
 if (export_graphs == TRUE) {
