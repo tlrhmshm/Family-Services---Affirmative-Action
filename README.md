@@ -329,4 +329,4 @@ Group 5: Service Workers
 3930 .PRT-SECURITY GUARDS AND GAMING SURVEILLANCE OFFICERS
 
 Note: For complete Stata and R scripts to replicate this study, please
-email .
+email tyhamashima@vassar.edu
