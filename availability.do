@@ -5,7 +5,7 @@ clear matrix
 set more off
 
 /* Change current working directory */
-cd "/Users/tylerhamashima/desktop/fsny/affirmativeaction"
+cd "/current/working/directory"
 
 /* Read the data into stata -- Using ACS 2011-2013 */
 use acs133yr.dta, clear
