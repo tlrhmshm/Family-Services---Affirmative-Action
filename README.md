@@ -1,17 +1,19 @@
 # Family-Services---Affirmative-Action
-Visualization of EEO-1 information from FSNY.
+Report of EEO-1 information from FSNY.
 
 AAvis.r contains R code to make graphs.
+
 eeo.csv contains EEO-1 information.
 
+affirmative.do contains Stata code to estimate workforce availability.
+
 ---
-author:
-- 'Tyler Hamashima, Human Resources Intern'
-date: 'February 24th, 2017'
-title: 'Family Services: Affirmative Action'
+author: Tyler Hamashima, Human Resources Intern
+
+date: February 24th, 2017
 ---
 
-1: Introduction {#introduction .unnumbered}
+1: Introduction 
 ===============
 
 Diversity, no matter the form, is a crucial component of workplace
@@ -26,8 +28,8 @@ This view misses the mark on the purpose of affirmative action - it is
 not to hire people based on any inherent characteristic, but rather it
 is to ensure that a company is not mistakingly executing their hiring
 process in a way that, intended or not, promotes biases and leaves out
-certain groups.\
-\
+certain groups.
+
 This analysis examines internal information on Family Services’
 employees to see whether their demographics align with those of the
 available workers in the area. Both gender and ethnicity are taken into
@@ -36,7 +38,7 @@ Executive, Professionals, Mid-Level, Administrative Support, and Service
 Workers. The following sections include the results, concluding
 statements, and an appendix containing the methodology.
 
-2: Results {#results .unnumbered}
+2: Results 
 ==========
 
 The following figures and tables show the current state of demographics
@@ -60,7 +62,15 @@ well.
 ![aa_comp_eth](https://cloud.githubusercontent.com/assets/25534898/23561686/41ad9008-000d-11e7-99c7-1d102abe1fa1.png)
 ![aa_comp_eth_gen](https://cloud.githubusercontent.com/assets/25534898/23561678/39f1f4c6-000d-11e7-8f91-a9f5b904f9c2.png)
 
+Table 1: Placement of Incumbents in Job Groups
 
+￼Job Group|Total Number of Incumbents|Number of Females|Female Inmcumbency|Number of Non-Whites|Non-White Incumbency
+---------|----------|----------|----------|----------|----------
+￼1 | 8 | 4 | 50.0% | 0 | 0.0% 
+2 | 19 | 18 | 94.7% | 3 | 15.8%
+3 | 93 | 81 | 87.1% | 26 | 28%
+4 | 43 | 42 | 97.7% | 13 | 30.2%
+5 | 10 | 3 | 30.0% | 7 | 70.0%
 
 These statistics can also be seen in Table 1, above. While these numbers
 are helpful in summarizing the demographics of Family Services, they
@@ -70,7 +80,9 @@ available workers in the area, for the given job groups. Table 2, below,
 shows the 95% confidence interval for both the non-white and female
 availability, which is to say that there is a 95% chance that the true
 proportion of non-white and female workers in the area fall somewhere
-between the lower and upper bounds of this interval. \n
+between the lower and upper bounds of this interval. 
+
+Table 2: 95% Confidence Interval for Non-Whites and Females, by Job Group
 
   **Job Group**  |Non-White Lower|Non-White Upper|Female Lower|Female Upper                  
   ---------------|-------|-------|-------|-------
@@ -79,14 +91,13 @@ between the lower and upper bounds of this interval. \n
   3              |9.1%   |18.4%  |75.0%  |85.8%
   4              |12.1%  |13.6%  |50.3%  |52.3%
   5              |13.3%  |15.4%  |16.4%  |26.2%
-95% Confidence Interval for Non-Whites and Females, by Job Group
 
 Figures 4 and 5 visualize the estimates given in Table 2 and the demographics of Family Services workers presented in Table 1.
 
 ![aanonwhite](https://cloud.githubusercontent.com/assets/25534898/23561704/5a1e91aa-000d-11e7-9b14-048e7c249060.png)
 ![aafemale](https://cloud.githubusercontent.com/assets/25534898/23561701/541bd146-000d-11e7-8f3f-680f0584639c.png)
 
-3: Concluding Remarks {#concluding-remarks .unnumbered}
+3: Concluding Remarks 
 =====================
 
 From Figures 4 and 5 it is easy to see that Family Services surpasses
@@ -102,7 +113,7 @@ analysis may be necessary to investigate potential biases: there is room
 to study the demographics of applicants, the callbacks, and the final
 hires across positions.
 
-4: Appendix: Methodology {#appendix-methodology .unnumbered}
+4: Appendix: Methodology 
 ========================
 
 The data used comes from the FSI and HVMH EEO-1 Reports from 9/30/2016
