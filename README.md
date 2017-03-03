@@ -57,9 +57,10 @@ Figure 1 shows the ethnic composition of workers within Family Services.
 Figure 2 then takes this one step further and separates by gender, as
 well.
 
-![](AA_comp_eth){width="\textwidth"}
+![aa_comp_eth](https://cloud.githubusercontent.com/assets/25534898/23561686/41ad9008-000d-11e7-99c7-1d102abe1fa1.png)
+![aa_comp_eth_gen](https://cloud.githubusercontent.com/assets/25534898/23561678/39f1f4c6-000d-11e7-8f91-a9f5b904f9c2.png)
 
-![](AA_comp_eth_gen){width="\textwidth"}
+
 
 These statistics can also be seen in Table 1, above. While these numbers
 are helpful in summarizing the demographics of Family Services, they
@@ -69,25 +70,21 @@ available workers in the area, for the given job groups. Table 2, below,
 shows the 95% confidence interval for both the non-white and female
 availability, which is to say that there is a 95% chance that the true
 proportion of non-white and female workers in the area fall somewhere
-between the lower and upper bounds of this interval.\
+between the lower and upper bounds of this interval. \n
 
-  **Job Group**                           
-  --------------- ------- ------- ------- -------
-  1               7.3%    15.3%   50.1%   61.9%
-  2               7.2%    16.3%   43.9%   57.8%
-  3               9.1%    18.4%   75.0%   85.8%
-  4               12.1%   13.6%   50.3%   52.3%
-  5               13.3%   15.4%   16.4%   26.2%
+  **Job Group**  |Non-White Lower|Non-White Upper|Female Lower|Female Upper                  
+  ---------------|-------|-------|-------|-------
+  1              |7.3%   |15.3%  |50.1%  |61.9%
+  2              |7.2%   |16.3%  |43.9%  |57.8%
+  3              |9.1%   |18.4%  |75.0%  |85.8%
+  4              |12.1%  |13.6%  |50.3%  |52.3%
+  5              |13.3%  |15.4%  |16.4%  |26.2%
+95% Confidence Interval for Non-Whites and Females, by Job Group
 
-  : 95% Confidence Interval for Non-Whites and Females, by Job
-  Group[]{data-label="my-label"}
+Figures 4 and 5 visualize the estimates given in Table 2 and the demographics of Family Services workers presented in Table 1.
 
-Figures 4 and 5 on the next page visualize the estimates given in Table
-2 and the demographics of Family Services workers presented in Table 1.
-
-![](AAnonwhite){width="\textwidth"}
-
-![](AAfemale){width="\textwidth"}
+![aanonwhite](https://cloud.githubusercontent.com/assets/25534898/23561704/5a1e91aa-000d-11e7-9b14-048e7c249060.png)
+![aafemale](https://cloud.githubusercontent.com/assets/25534898/23561701/541bd146-000d-11e7-8f3f-680f0584639c.png)
 
 3: Concluding Remarks {#concluding-remarks .unnumbered}
 =====================
@@ -164,59 +161,59 @@ Criteria:
 **Relevant Degree Fields**\
 Codes correspond to ACS degree codes\
 \
-Group 1: Executive/Senior Level Officials and Managers\
-1904 .ADVERTISING AND PUBLIC RELATIONS\
-1901 .COMMUNICATIONS\
-2301 .EDUCATIONAL ADMINISTRATION AND SUPERVISION\
-5401 .PUBLIC ADMINISTRATION\
-5403 .HUMAN SERVICES AND COMMUNITY ORGANIZATION\
-5404 .SOCIAL WORK\
-6103 .HEALTH AND MEDICAL ADMINISTRATIVE SERVICES\
-6203 .BUSINESS MANAGEMENT AND ADMINISTRATION\
-6209 .HUMAN RESOURCES AND PERSONNEL MANAGEMENT\
-\
-Group 2: First/Mid-Level Officials and Managers\
-1901 .COMMUNICATIONS\
-1904 .ADVERTISING AND PUBLIC RELATIONS\
-2301 .EDUCATIONAL ADMINISTRATION AND SUPERVISION\
-5202 .CLINICAL PSYCHOLOGY\
-5203 .COUNSELING PSYCHOLOGY\
-5206 .SOCIAL PSYCHOLOGY\
-5401 .PUBLIC ADMINISTRATION\
-5403 .HUMAN SERVICES AND COMMUNITY ORGANIZATION\
-6103 .HEALTH AND MEDICAL ADMINISTRATIVE SERVICES\
-6108 .PHARMACY PHARMACEUTICAL SCIENCES AND ADMINISTRATION\
-6203 .BUSINESS MANAGEMENT AND ADMINISTRATION\
-\
-Group 3: Professionals\
-2303 .SCHOOL STUDENT COUNSELING\
-5202 .CLINICAL PSYCHOLOGY\
-5203 .COUNSELING PSYCHOLOGY\
-5205 .INDUSTRIAL AND ORGANIZATIONAL PSYCHOLOGY\
-5206 .SOCIAL PSYCHOLOGY\
-5299 .MISCELLANEOUS PSYCHOLOGY\
-5403 .HUMAN SERVICES AND COMMUNITY ORGANIZATION\
-5404 .SOCIAL WORK\
-6100 .GENERAL MEDICAL AND HEALTH SERVICES\
-6103 .HEALTH AND MEDICAL ADMINISTRATIVE SERVICES\
-6104 .MEDICAL ASSISTING SERVICES\
-6105 .MEDICAL TECHNOLOGIES TECHNICIANS\
-6107 .NURSING\
-6109 .TREATMENT THERAPY PROFESSIONS\
-6110 .COMMUNITY AND PUBLIC HEALTH\
-\
-Group 4: Administrative Support Workers\
-N/A\
-\
-Group 5: Service Workers\
-N/A\
-\
-**Relevant Occupations**\
-Codes correspond to ACS occupation codes\
-\
-Group 1: Executive/Senior Level Officials and Managers\
-0010 .MGR-CHIEF EXECUTIVES AND LEGISLATORS\
-0020 .MGR-GENERAL AND OPERATIONS MANAGERS\
+Group 1: Executive/Senior Level Officials and Managers\n
+1904 .ADVERTISING AND PUBLIC RELATIONS\n
+1901 .COMMUNICATIONS\n
+2301 .EDUCATIONAL ADMINISTRATION AND SUPERVISION\n
+5401 .PUBLIC ADMINISTRATION\n
+5403 .HUMAN SERVICES AND COMMUNITY ORGANIZATION\n
+5404 .SOCIAL WORK\n
+6103 .HEALTH AND MEDICAL ADMINISTRATIVE SERVICES\n
+6203 .BUSINESS MANAGEMENT AND ADMINISTRATION\n
+6209 .HUMAN RESOURCES AND PERSONNEL MANAGEMENT\n
+\n
+Group 2: First/Mid-Level Officials and Managers\n
+1901 .COMMUNICATIONS\n
+1904 .ADVERTISING AND PUBLIC RELATIONS\n
+2301 .EDUCATIONAL ADMINISTRATION AND SUPERVISION\n
+5202 .CLINICAL PSYCHOLOGY\n
+5203 .COUNSELING PSYCHOLOGY\n
+5206 .SOCIAL PSYCHOLOGY\n
+5401 .PUBLIC ADMINISTRATION\n
+5403 .HUMAN SERVICES AND COMMUNITY ORGANIZATION\n
+6103 .HEALTH AND MEDICAL ADMINISTRATIVE SERVICES\n
+6108 .PHARMACY PHARMACEUTICAL SCIENCES AND ADMINISTRATION\n
+6203 .BUSINESS MANAGEMENT AND ADMINISTRATION\n
+\n
+Group 3: Professionals\n
+2303 .SCHOOL STUDENT COUNSELING\n
+5202 .CLINICAL PSYCHOLOGY\n
+5203 .COUNSELING PSYCHOLOGY\n
+5205 .INDUSTRIAL AND ORGANIZATIONAL PSYCHOLOGY\n
+5206 .SOCIAL PSYCHOLOGY\n
+5299 .MISCELLANEOUS PSYCHOLOGY\n
+5403 .HUMAN SERVICES AND COMMUNITY ORGANIZATION\n
+5404 .SOCIAL WORK\n
+6100 .GENERAL MEDICAL AND HEALTH SERVICES\n
+6103 .HEALTH AND MEDICAL ADMINISTRATIVE SERVICES\n
+6104 .MEDICAL ASSISTING SERVICES\n
+6105 .MEDICAL TECHNOLOGIES TECHNICIANS\n
+6107 .NURSING\n
+6109 .TREATMENT THERAPY PROFESSIONS\n
+6110 .COMMUNITY AND PUBLIC HEALTH\n
+\n
+Group 4: Administrative Support Workers\n
+N/A\n
+\n
+Group 5: Service Workers\n
+N/A\n
+\n
+**Relevant Occupations**\n
+Codes correspond to ACS occupation codes\n
+\n
+Group 1: Executive/Senior Level Officials and Managers\n
+0010 .MGR-CHIEF EXECUTIVES AND LEGISLATORS\n
+0020 .MGR-GENERAL AND OPERATIONS MANAGERS\n
 0230 .MGR-EDUCATION ADMINISTRATORS\
 0350 .MGR-MEDICAL AND HEALTH SERVICES MANAGERS\
 0420 .MGR-SOCIAL AND COMMUNITY SERVICE MANAGERS\
