@@ -34,7 +34,7 @@ AAdata$`Job Group` = factor(AAdata$`Job Group`, levels=unique(AAdata$`Job Group`
 # Graph non-white 95% confidence range against actual non-white point
 if (export_graphs == TRUE) {
   png(
-    '/users/tylerhamashima/desktop/FSNY/AffirmativeAction/AAnonwhite.png',
+    '/path/to/save/file/AAnonwhite.png',
     width = w,
     height = h,
     units = un,
@@ -56,7 +56,7 @@ if (export_graphs == TRUE) {
 # Graph female 95% confidence range against actual female point
 if (export_graphs == TRUE) {
   png(
-    '/users/tylerhamashima/desktop/FSNY/AffirmativeAction/AAfemale.png',
+    '/path/to/save/file/AAfemale.png',
     width = w,
     height = h,
     units = un,
@@ -76,7 +76,7 @@ if (export_graphs == TRUE) {
 
 
 # General sum stats of workers at Family Services
-emp <- read.table('/users/tylerhamashima/desktop/FSNY/AffirmativeAction/EEO.csv',
+emp <- read.table('/path/to/file/EEO.csv',
                   header = TRUE,
                   sep = ",")
 
@@ -86,7 +86,7 @@ emp$EEOC = factor(emp$EEOC, levels=unique(emp$EEOC))
 # Plot of ethnic composition of job groups by gender
 if (export_graphs == TRUE) {
   png(
-    '/users/tylerhamashima/desktop/FSNY/AffirmativeAction/AA_comp_eth_gen.png',
+    '/path/to/save/file/AA_comp_eth_gen.png',
     width = w,
     height = h,
     units = un,
@@ -108,7 +108,7 @@ if (export_graphs == TRUE) {
 
 if (export_graphs == TRUE) {
   png(
-    '/users/tylerhamashima/desktop/FSNY/AffirmativeAction/AA_comp_eth.png',
+    '/path/to/save/file/AA_comp_eth.png',
     width = w,
     height = h,
     units = un,
@@ -130,7 +130,7 @@ if (export_graphs == TRUE) {
 # Plot of composition of gender by job group
 if (export_graphs == TRUE) {
   png(
-    '/users/tylerhamashima/desktop/FSNY/AffirmativeAction/AA_comp_gen.png',
+    '/path/to/save/file/AA_comp_gen.png',
     width = w,
     height = h,
     units = un,
